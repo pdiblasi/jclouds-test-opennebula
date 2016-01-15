@@ -5,6 +5,8 @@
  */
 package test;
 
+import java.util.Set;
+
 /**
  *
  * @author pdiblasi <ingpdiblasi at gmail.com>
@@ -16,6 +18,10 @@ public class Test {
      */
     public static void main(String[] args) {
         onetest opennebula=new onetest();
+        //Set <String> lol = opennebula.oneApi.getConfiguredRegions();
+        
+        
+        
     }
     
 }
