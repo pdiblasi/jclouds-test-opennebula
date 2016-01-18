@@ -11,15 +11,23 @@ import java.util.Set;
  *
  * @author pdiblasi <ingpdiblasi at gmail.com>
  */
+
 public class Test {
+    //static String region="region";
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         onetest opennebula=new onetest();
-        //Set <String> lol = opennebula.oneApi.getConfiguredRegions();
+        opennebula.listRegions();
         
+//        Set <String> regions = opennebula.oneApi.getConfiguredRegions();
+//        System.out.println(regions.size());
+//        System.out.println(regions.isEmpty());
+        
+//        opennebula.oneApi.getSubnetApi();
+
         
         
     }
