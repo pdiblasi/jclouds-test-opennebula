@@ -52,6 +52,6 @@ public class onetest {
             //     System.out.println("  " + server);
             //     System.out.println(this.toJSON(server));
             // }
-        };
+        }
     }
 }
